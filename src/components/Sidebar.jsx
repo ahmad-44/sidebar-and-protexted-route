@@ -13,10 +13,11 @@ function Sidebar() {
 
   return (
     // Sidebar Container
+
     <div
-      className={` flex flex-col justify-between bg-slate-800 ${
+      className={`flex flex-col h-[calc(100vh-100px)] justify-between bg-slate-800 ${
         sidebarOpen ? "w-[255px]" : "w-[70px]"
-      } h-screen float-left mr-6 transition-all duration-700`}
+      }  float-left mr-6 transition-all duration-700`}
     >
       {/* toggle and links */}
       <div>
