@@ -21,7 +21,7 @@ function Sidebar() {
         {/* Sidebar Toggle */}
         <div className={`mt-6 mb-6 pl-3`}>
           <img
-            src="../../public/icons/chevron-right.svg"
+            src={"../../public/icons/chevron-right.svg"}
             className={`w-12 cursor-pointer ${
               sidebarOpen && "rotate-180"
             } transition duration-700`}

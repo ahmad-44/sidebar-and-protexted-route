@@ -5,7 +5,7 @@ export const sidebarLinks = [
     label: "Home",
   },
   {
-    imgURL: "../../public/icons/users.svg",
+    imgURL: "/../../public/icons/users.svg",
     route: "/community",
     label: "Community",
   },
