@@ -1,31 +1,37 @@
+import HomeImg from "../../public/icons/home.svg";
+import CommunityImg from "../../public/icons/user.svg";
+import CollectionsImg from "../../public/icons/star.svg";
+import FindJobsImg from "../../public/icons/suitcase.svg";
+import TagsImg from "../../public/icons/tag.svg";
+import AccountImg from "../../public/icons/account.svg";
 export const sidebarLinks = [
   {
-    imgURL: "../../public/icons/home.svg",
+    imgURL: HomeImg,
     route: "/",
     label: "Home",
   },
   {
-    imgURL: "/../../public/icons/users.svg",
+    imgURL: CommunityImg,
     route: "/community",
     label: "Community",
   },
   {
-    imgURL: "../../public/icons/star.svg",
+    imgURL: CollectionsImg,
     route: "/collections",
     label: "Collections",
   },
   {
-    imgURL: "../../public/icons/suitcase.svg",
+    imgURL: FindJobsImg,
     route: "/findjobs",
     label: "FindJobs",
   },
   {
-    imgURL: "../../public/icons/tag.svg",
+    imgURL: TagsImg,
     route: "/tags",
     label: "Tags",
   },
   {
-    imgURL: "../../public/icons/account.svg",
+    imgURL: AccountImg,
     route: "/login",
     label: "Account",
   },

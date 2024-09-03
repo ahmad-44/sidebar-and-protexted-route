@@ -1,9 +1,8 @@
-import React from "react";
-
+import Logo from "../../public/vite.svg";
 function Header() {
   return (
     <nav className="font-normal bg-slate-900 h-[100px] text-white flex items-center justify-between px-20">
-      <img src="../../public/vite.svg" />
+      <img src={Logo} />
       <ul className="flex gap-10 items-center h-full">
         <li className="hover:text-purple cursor-pointer transition duration-300">
           About
