@@ -3,6 +3,8 @@ import { useState } from "react";
 import { sidebarLinks } from "../constants/sidebarLinks.js";
 import { NavLink } from "react-router-dom";
 import UserBtns from "./UserBtns.jsx";
+
+import Chevron from "../../public/icons/chevron-right.svg";
 function Sidebar() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const sidebarToggle = () => {
@@ -21,7 +23,7 @@ function Sidebar() {
         {/* Sidebar Toggle */}
         <div className={`mt-6 mb-6 pl-3`}>
           <img
-            src={"../../public/icons/chevron-right.svg"}
+            src={Chevron}
             className={`w-12 cursor-pointer ${
               sidebarOpen && "rotate-180"
             } transition duration-700`}
